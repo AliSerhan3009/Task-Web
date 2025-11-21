@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: #1e1e2f;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background: #333;
+}
+
+.nav a.active {
+    background: #5555ff;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 60px 20px;
+    min-height: 80vh;
+}
+
+.home-left {
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-left img {
+    max-width: 300px;
+    height: auto;
+}
+
+.home-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.home-center .center-image {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.home-center h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.home-center p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.home-center button {
+    padding: 12px 26px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background: #5555ff;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.home-center button:hover {
+    background: #3333cc;
+}
