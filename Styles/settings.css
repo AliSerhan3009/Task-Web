@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: #1e1e2f;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.nav a:hover { background: #333; }
+.nav a.active { background: #5555ff; }
+
+.settings {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.settings input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 22px;
+    border: none;
+    background: #5555ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { background: #3333cc; }
+
+.card {
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
